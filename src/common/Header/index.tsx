@@ -98,11 +98,6 @@ const Header = ({ onOpenSearch }: HeaderProps) => {
           >
             <FiSearch className="w-4 h-4 mr-2" />
             <span className="text-sm font-medium">Search</span>
-            <kbd className={cn(
-              "ml-2 px-1.5 py-0.5 text-xs font-mono rounded border text-[10px] bg-white/10 border-white/20 text-gray-300"
-            )}>
-              ⌘K
-            </kbd>
           </Button>
 
           <div className="button relative">
