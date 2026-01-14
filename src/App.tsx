@@ -40,7 +40,7 @@ const App = () => {
       <SideBar />
       <Header onOpenSearch={() => setIsCommandPaletteOpen(true)} />
       <DemoModeBadge />
-      <main className="transition-all duration-300 lg:pb-14 md:pb-4 sm:pb-2 xs:pb-1 pb-0 bg-white dark:bg-deep-dark min-h-screen">
+      <main className="transition-all duration-300 lg:pb-14 md:pb-4 sm:pb-2 xs:pb-1 pb-0 bg-white dark:bg-deep-dark min-h-screen pt-16 md:pt-[64px]">
         <ScrollToTop>
           <ErrorBoundary>
             <Suspense fallback={<Loader />}>
