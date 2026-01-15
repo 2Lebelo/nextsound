@@ -173,5 +173,3 @@ npm run preview
   <p>Built with ❤️ for music lovers everywhere</p>
   <p>Discover your next favorite track with NextSound</p>
 </div>
-
-hi you are cool
